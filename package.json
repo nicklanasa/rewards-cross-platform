@@ -17,7 +17,8 @@
     "presync": "npm run build",
     "sync": "npx cap sync",
     "android": "npx cap run android",
-    "ios": "npx cap run ios"
+    "ios": "npx cap run ios",
+    "electron": "npx cap open @capacitor-community/electron"
   },
   "dependencies": {
     "@capacitor-community/electron": "5.0.1",
